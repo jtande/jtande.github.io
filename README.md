@@ -1,2 +1,2 @@
 # jtande.github.io
-My Personla web page on GitHub
+My Personal web page on GitHub
