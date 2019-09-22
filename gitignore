@@ -1,0 +1,2 @@
+# This file tells git to ignore files and content of directories stated herein
+_site/
