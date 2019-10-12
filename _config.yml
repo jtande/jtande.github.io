@@ -1,3 +1,4 @@
 # This file tells Jekyll some basics about this project
 name: Jacob Fosso Tande, Computational Scientist
 markdown: kramdown
+permalink: /workshops/:year/:month/:day/:title
