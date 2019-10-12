@@ -5,7 +5,7 @@ title: Docker Container Workshop
 	<h1>{{ page.title }}</h1>
 	<ul class="workshops">
 
-	  {% for workshop in site.workshopss %}
+	  {% for workshop in site.workshops %}
 	    <li><span>{{ workshop.date | date_to_string }}</span> » <a href="{{ workshop.url }}" title="{{ workshop.title }}">{{ workshop.title }}</a></li>
 	  {% endfor %}
 	</ul>
