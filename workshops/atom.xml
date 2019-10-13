@@ -1,0 +1,28 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Jacob Fosso Tande's Workshop</title>
+  <link href="http://jtande.github.io/workshops/atom.xml" rel="self"/>
+  <link href="http://jtande.github.io/workshops"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://jtande.github.io/workshops</id>
+  <author>
+    <name>Jacob Fosso Tande</name>
+    <email>fossotaj@gmail.com</email>
+  </author>
+
+  {% for workshop in site.workshops %}
+  <entry>
+    <title>{{ workshop.title }}</title>
+    <link href="http://jtande.github.io{{ post.url }}"/>
+    <updated>{{ workshop.date | date_to_xmlschema }}</updated>
+    <id>http://jtande.github.io{{ workshop.id }}</id>
+    <content type="html">{{ workshop.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+
+</feed>
+
