@@ -1,5 +1,0 @@
-#! /bin/bash
-# The execution below creates a local server
-# Copy the posted link address to you browser
-# to browsethrough the pages
-bundle exec jekyll serve

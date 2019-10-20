@@ -1,3 +1,6 @@
 # This file tells git to ignore files and content of directories stated herein
 _site/
 local_site_test.sh
+*~
+Gemfile.lock
+Gemfile
