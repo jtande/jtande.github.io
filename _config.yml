@@ -25,9 +25,9 @@ permalink: /workshops/:2019/:09/:22/:Docker Container Tutorial
 title: Jacob Fosso Tande, Computational Scientist
 email: fossotaj@gmail.com
 description:Jacob Fosso Tande, Computational Scientist >- # this means to ignore newlines until "baseurl:"
-  	     #Write an awesome description for your new site here. You can edit
-	     #line in _config.yml. It will appear in your document head meta (for
-     	     # Google search results) and in your feed.xml site description.
+#Write an awesome description for your new site here. You can edit
+#line in _config.yml. It will appear in your document head meta (for
+# Google search results) and in your feed.xml site description.
 	     
 #      baseurl: "" # the subpath of your site, e.g. /blog
 #      url: "" # the base hostname & protocol for your site, e.g. http://example.com
