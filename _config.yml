@@ -1,0 +1,5 @@
+# This file tells Jekyll some basics about this project
+#permalink: /workshops/:year/:month/:day/:title
+name: Jacob Fosso Tande, Computational Scientist
+markdown: kramdown
+permalink: /workshops/:2019/:09/:22/:Docker Container Tutorial

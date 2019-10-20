@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<!--This is the main layout that will contain repeated elements like our head and footer. 
+Now no need to repeat markups on every single page we create, making maintenance of our site much easier. --> 
+
+	<head>
+		<title>{{page.title}}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/deployment">Deployment</a></li>
+            <li><a href="/workshops">Workshops</a></li>
+            <li><a href="/tutorials">Turorials</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+        {{ content }}
+    		
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:fossotaj@gmail.com">email</a></li>
+        		<li><a href="https://github.com/jtande">github.com/jtande</a></li>
+			</ul>
+		</footer>
+	</body>
+
+	
