@@ -4,7 +4,7 @@ layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
+  
   <title>Jacob Fosso Tande's Workshop</title>
   <link href="http://jtande.github.io/workshops/atom.xml" rel="self"/>
   <link href="http://jtande.github.io/workshops"/>
@@ -24,6 +24,6 @@ layout: feed
     <content type="html">{{ workshop.content | xml_escape }}</content>
   </entry>
   {% endfor %}
-
+  
 </feed>
 
